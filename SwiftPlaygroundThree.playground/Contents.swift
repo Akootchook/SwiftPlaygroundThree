@@ -39,4 +39,21 @@ for name in fruitNames{
 
 print(fruitNames[1])
 
+//Bugatti Chiron
+//Lamborghini Sian
+//Pagani Huayra
+//W Motors Lykan
+//Aston Martin Valkyrie
+//Koenigsegg Jesko
+//Mercedes-AMG Project One
+//Pininfarina Battista
 
+var expensiveCars = [String]()
+
+expensiveCars = ["Bugatti Chiron", "Lamborghini Sian", "Pagani Huayra", "W Motors Lykan", "Aston Martin Valkyrie", "Koenigsegg Jesko", "Mercedes-AMG Project One", "Pininfarina Battista"]
+
+for item in expensiveCars {
+    print(item + " is a very expensive car")
+}
+
+print(expensiveCars[0])
